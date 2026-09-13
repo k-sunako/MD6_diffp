@@ -1,7 +1,7 @@
 SRC_DIR=src
 
 INCLUDE_PATH=-I$(SRC_DIR)
-GCC=gcc $(CFLAGS) -Wall -O2 $(INCLUDE_PATH) 
+GCC=gcc $(CFLAGS) -Wall $(INCLUDE_PATH) 
 
 compile : 
 	$(GCC) -o diffp $(SRC_DIR)/diffp.c 
